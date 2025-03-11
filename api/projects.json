@@ -1,18 +1,18 @@
 [
     {
-        "name":"Digital Watch",
+        "name":"Linear Gradient",
         "description":"description of Project1",
-        "image":"public/image/digitalWatch.png",
-        "link":"projects/linearGradient/index.html",
-        "sourceCode":"https://github.com/Aman-Giri01/linearGradient"
+        "image":"/image/linearGradient.png",
+        "link":"/projects/linearGradient/index.html",
+        "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/projects/linearGradient"
     
     },
     {
-        "name":"Linear Gradient",
+        "name":"Digital Watch",
         "description":"description of Project1",
-        "image":"public/image/linearGradient.png",
-        "link":"projects/DigitalWatch/index.html",
-        "sourceCode":"https://github.com/Aman-Giri01/DigitalWatch"
+        "image":"/image/digitalWatch.png",
+        "link":"/projects/DigitalWatch/index.html",
+        "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/projects/DigitalWatch"
     
     }
 ]
