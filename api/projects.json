@@ -4,7 +4,7 @@
         "description":"description of Project1",
         "image":"/image/linearGradient.png",
         "link":"/projects/linearGradient/index.html",
-        "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/projects/linearGradient"
+        "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/public/projects/linearGradient"
     
     },
     {
@@ -12,7 +12,15 @@
         "description":"description of Project1",
         "image":"/image/digitalWatch.png",
         "link":"/projects/DigitalWatch/index.html",
-        "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/projects/DigitalWatch"
+        "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/public/projects/DigitalWatch"
     
+    },
+    {
+        "name":"BMI Calculator",
+        "description":"description of Project1",
+        "image":"/image/BMI.png",
+        "link":"/projects/BMI_Calculator/index.html",
+        "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/public/projects/BMI_Calculator"
+
     }
 ]
