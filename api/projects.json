@@ -1,7 +1,7 @@
 [
     {
         "name":"Linear Gradient",
-        "description":"description of Project1",
+        "description":"Generate linear gradient and use it in your project by copying it.",
         "image":"/image/linearGradient.png",
         "link":"/projects/linearGradient/index.html",
         "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/public/projects/linearGradient"
@@ -9,7 +9,7 @@
     },
     {
         "name":"Digital Watch",
-        "description":"description of Project1",
+        "description":"Digital Watch Showing Local Time.",
         "image":"/image/digitalWatch.png",
         "link":"/projects/DigitalWatch/index.html",
         "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/public/projects/DigitalWatch"
@@ -17,10 +17,18 @@
     },
     {
         "name":"BMI Calculator",
-        "description":"description of Project1",
+        "description":"Calculates the BMI according to given weight and height.",
         "image":"/image/BMI.png",
         "link":"/projects/BMI_Calculator/index.html",
         "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/public/projects/BMI_Calculator"
+
+    },
+    {
+        "name":"Carousel",
+        "description":"Displaying Collection of images in slideshow.",
+        "image":"/image/img1.png",
+        "link":"/projects/Carousel/index.html",
+        "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/public/projects/Carousel"
 
     }
 ]
