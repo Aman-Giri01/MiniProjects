@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle, #1b1f3a, #0c0f26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Search Bar */
+.search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.search input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search button {
+    padding: 10px 15px;
+    border: none;
+    background: #121941;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all ease .5s;
+    &:hover{
+        opacity:0.8;
+
+    }
+    &:active{
+        color:red;
+    }
+}
+
+/* Profile & Repo Card */
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:  0 0 5px rgba(255, 255, 255);
+}
+
+/* Profile Section */
+.row1 {
+    background: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+}
+
+.row1 .img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #ddd;
+    margin-bottom: 10px;
+}
+
+.row1 .username p {
+    font-size: 14px;
+    color: gray;
+}
+
+.row1 .username h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.follow {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.follow div {
+    text-align: center;
+}
+
+.follow p {
+    font-size: 12px;
+    color: gray;
+}
+
+.follow span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Repo Section */
+.row2 {
+   
+    background-color: #121941;
+    padding: 20px;
+    width: 65%;
+    color: white;
+}
+
+.row2 h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Repo Details Grid */
+.repo_details {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    gap: 15px;
+    padding: 10px;
+    max-width: 100%;
+    align-items: stretch; 
+    
+}
+
+.item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    height: 100%; 
+    flex-grow: 1; 
+}
+
+.repo_name {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: left;
+    color: white;
+}
+
+
+.repo_detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    flex-grow: 1; 
+}
+
+
+.repo_detail div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+
+
+.repo_detail i {
+    color: #ffcc00;
+}
+
+.info_size {
+    background: rgba(0, 123, 255, 0.7);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .repo_details {
+        grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 columns on tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .repo_details {
+        grid-template-columns: repeat(1, minmax(0, 1fr)); /* 1 column on mobile */
+    }
+}
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row1, .row2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .row1 {
+        padding: 30px;
+    }
+
+    .row2 {
+        padding: 20px;
+    }
+
+    .repo_info {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+
+@media (max-width: 480px) {
+    .search input {
+        width: 80%;
+        border-radius: 5px;
+    }
+
+    .search button {
+        width: 80%;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .row1 .img img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .repo_info {
+        font-size: 12px;
+    }
+}

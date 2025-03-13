@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div class="container">
+        <form class="search" id="formdata">
+            <input type="text" id="username" name="username" placeholder="Search Username" autocomplete="off">
+            <button type="submit" id="btn" >search</button>
+            <span id="msg"></span>
+        </form>
+        <div class="card">
+            <div class="row1">
+                <div class="img">
+                    <img src="/image/github.png" alt="">
+                </div>
+                <div class="username">
+                    <p>Login Name</p>
+                    <h2 id="name">Name</h2>
+                </div>
+                <div class="follow">
+                    <div class="follower">
+                        <p>followers</p>
+                        <span id="followers">0</span>
+                     </div>
+                     <div class="follows">
+                        <p>follows</p>
+                        <span id="follows">0</span>
+                     </div>
+                </div>
+            </div>
+            <div class="row2">
+                <h1>Repos</h1>
+                <div class="repo_details">
+                    <div class="item">
+                        <div class="repo_name">Aman</div>
+                        <div class="repo_detail">
+                            <div class="info_stars">
+                                <i class="fa fa-star"></i> 10
+                            </div>
+                            <div class="info_fork">
+                                <p><i class="fa fa-code-fork"></i> 0</p>
+                            </div>
+                            <div class="info_size">
+                                <p><i class="fa fa-file"></i> 4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+   </div> 
+   <script src="script.js"></script>
+</body>
+</html>
