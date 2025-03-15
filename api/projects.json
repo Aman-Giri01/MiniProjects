@@ -41,6 +41,14 @@
 
     },
     {
+        "name":"Language Translator",
+        "description":"Translate any language .",
+        "image":"/image/tranlator.png",
+        "link":"/projects/Translator/index.html",
+        "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/public/projects/Translator"
+
+    },
+    {
         "name":"Digital Watch",
         "description":"Digital Watch Showing Local Time.",
         "image":"/image/digitalWatch.png",
