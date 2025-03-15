@@ -8,6 +8,14 @@
     
     },
     {
+        "name":"Language Translator",
+        "description":"Translate any language .",
+        "image":"/image/tranlator.png",
+        "link":"/projects/Translator/index.html",
+        "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/public/projects/Translator"
+
+    },
+    {
         "name":"Github Account Finder",
         "description":"Find Github account by username.",
         "image":"/image/gFinder.png",
@@ -38,14 +46,6 @@
         "image":"/image/joke.png",
         "link":"/projects/Joke_Generator/index.html",
         "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/public/projects/Joke_Generator"
-
-    },
-    {
-        "name":"Language Translator",
-        "description":"Translate any language .",
-        "image":"/image/tranlator.png",
-        "link":"/projects/Translator/index.html",
-        "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/public/projects/Translator"
 
     },
     {
