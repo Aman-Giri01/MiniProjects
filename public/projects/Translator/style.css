@@ -74,8 +74,8 @@ body {
 @media (max-width: 400px) {
     .lang_selector {
         flex-direction: column;
-        gap: 10px;
-        align-items: stretch;
+        gap: 5px;
+        align-items: center;
     }
 
     .lang_selector select {
@@ -149,6 +149,7 @@ textarea {
 {
     .lang_selector {
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
+        align-items: center;
     }
 }

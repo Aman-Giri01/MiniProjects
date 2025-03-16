@@ -33,6 +33,14 @@
 
     },
     {
+        "name":"Todo",
+        "description":"Make a todo list .",
+        "image":"/image/todo.png",
+        "link":"/projects/Todo/index.html",
+        "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/public/projects/Todo"
+
+    },
+    {
         "name":"Carousel",
         "description":"Displaying Collection of images in slideshow.",
         "image":"/image/img1.png",

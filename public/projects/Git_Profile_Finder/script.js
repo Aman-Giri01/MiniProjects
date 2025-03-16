@@ -30,7 +30,6 @@ const fetchUser=()=>{
         return res.json()})
     .then((data)=>{
         if(data.message==="Not Found"){
-            alert('user not found');
             return false;
         }else
         {
@@ -57,23 +56,23 @@ const fetchUser=()=>{
             {
                 repo_details.innerHTML=`
                 <div class="item">
-                    <div class="repo_name">Aman</div>
+                    <div class="repo_name">Not Found</div>
                         <div class="repo_detail">
                             <div class="info_stars">
-                                <i class="fa fa-star"></i> 10
+                                <i class="fa fa-star"></i> 0
                             </div>
                             <div class="info_fork">
-                                <p><i class="fa fa-code-fork"></i> 30</p>
+                                <p><i class="fa fa-code-fork"></i> 0</p>
                             </div>
                             <div class="info_size">
-                            <p><i class="fa fa-file"></i> 30</p>
+                            <p><i class="fa fa-file"></i> 0</p>
                             </div>  
                         </div>
                     </div>
                 </div>
                 `
-                img.innerHTML=`<img src="">`;
-                login.innerHTML=`Aman`;
+                img.innerHTML=`<img src="/image/notFound.jpg">`;
+                login.innerHTML=`Not Found`;
                 followers.innerHTML=`0`;
                 follows.innerHTML= `0`;
             }
