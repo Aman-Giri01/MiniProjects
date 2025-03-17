@@ -19,3 +19,16 @@ projects.forEach((prod)=>{
     projectContainer.append(clone);
 
 });
+
+const mode=document.querySelector('#mode');
+const icon = mode.querySelector('i'); 
+mode.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    if (document.body.classList.contains('dark-mode')) {
+        icon.classList.replace('fa-sun', 'fa-moon'); 
+    } else {
+        icon.classList.replace('fa-moon', 'fa-sun');
+    }
+
+});
+

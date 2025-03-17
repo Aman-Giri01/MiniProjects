@@ -29,12 +29,13 @@ const fetchUser=()=>{
     .then((res)=>{
         return res.json()})
     .then((data)=>{
+        console.log(data);
         if(data.message==="Not Found"){
             return false;
         }else
         {
             img.innerHTML=`<img src="${data.avatar_url}">`;
-            login.innerHTML=data.login;
+            login.innerHTML=data.name;
             followers.innerHTML=data.followers;
             follows.innerHTML=data.following;
         }
