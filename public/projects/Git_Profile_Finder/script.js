@@ -29,7 +29,6 @@ const fetchUser=()=>{
     .then((res)=>{
         return res.json()})
     .then((data)=>{
-        console.log(data);
         if(data.message==="Not Found"){
             return false;
         }else

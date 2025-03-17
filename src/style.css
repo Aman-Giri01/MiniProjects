@@ -12,6 +12,7 @@ body {
 
 .header , .fotter
 {
+  padding:12px 20px;
   background: radial-gradient(circle, #1b1f3a, #0c0f26);
   display: flex;
   gap: 20px;
@@ -129,7 +130,6 @@ body {
 @media (max-width: 768px) {
   body {
     display: block;
-    padding: 10px;
   }
   
   #projectContainer {
@@ -150,7 +150,7 @@ body {
     object-fit: contain;
   }
   
-  .name, .header h3  {
+  .name  {
     font-size: 1rem;
   }
   
