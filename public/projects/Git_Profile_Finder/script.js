@@ -33,8 +33,7 @@ const fetchUser=()=>{
         if(data.message==="Not Found"){
             return false;
         }else
-        {    console.log(data);
-            img.innerHTML=`<img src="${data.avatar_url}">`;
+        {   img.innerHTML=`<img src="${data.avatar_url}">`;
             login.innerHTML=data.name;
             followers.innerHTML=data.followers;
             follows.innerHTML=data.following;
