@@ -4,6 +4,7 @@ const follows=document.querySelector('#follows');
 const repo_details=document.querySelector('.repo_details');
 const btn=document.querySelector('#btn');
 const login=document.querySelector('#name');
+const url=document.querySelector("#link");
 
 let user_name='';
 document.getElementById("formdata").addEventListener('submit',(event)=>{
@@ -32,11 +33,12 @@ const fetchUser=()=>{
         if(data.message==="Not Found"){
             return false;
         }else
-        {
+        {    console.log(data);
             img.innerHTML=`<img src="${data.avatar_url}">`;
             login.innerHTML=data.name;
             followers.innerHTML=data.followers;
             follows.innerHTML=data.following;
+            url.href=data.html_url;
         }
     }).catch(error => console.error("Error fetching data:", error));;
 
@@ -48,7 +50,7 @@ const fetchUser=()=>{
         {
             repo_details.innerHTML=`
              <div class="item">
-                        <div class="repo_name">Aman</div>
+                        <div class="repo_name"></div>
              </div>                    `
         }
         else{
