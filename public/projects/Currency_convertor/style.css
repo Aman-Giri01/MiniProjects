@@ -15,7 +15,7 @@ body{
     place-items: center;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
       rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    padding: 1.8rem;
+    padding: 2.5em;
     border-radius: 12px;
     font-size: 1.6rem;
     /* background-color: aliceblue; */  
@@ -30,7 +30,6 @@ body{
     border-radius: 5px;
     border:none;
     font-size: 1.5rem;
-    margin: 5px;
     transition: background 0.3s ease;
     cursor: pointer;
   }
@@ -39,4 +38,46 @@ body{
     background: #0056b3;
     color: rgba(255, 255, 255, 0.592);
   }
+
+  .container h2 ,input ,.selection , p{
+    margin-bottom: 20px;
+  
+  }
+  input {
+    outline: none;
+    padding: .8rem;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    &:hover{
+      border: 1px solid#007bff;
+    }
+  }
+  .transfer {
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .transfer:hover {
+      color: #007bff;
+  }
+  
+  .selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+  }
+  .selection select {
+    outline: none;
+    padding: .4rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    &:hover{
+      color:#007bff
+    }
+  }
+
   
