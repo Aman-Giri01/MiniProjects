@@ -23,6 +23,15 @@
         "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/public/projects/Git_Profile_Finder"
 
     }
+    ,
+    {
+        "name":"Currency Convertor",
+        "description":"Find conversion rate of currencies",
+        "image":"/image/curr.png",
+        "link":"/projects/Currency_convertor/index.html",
+        "sourcecode":"https://github.com/Aman-Giri01/MiniProjects/tree/main/public/projects/Currency_convertor"
+
+    }
    ,
     {
         "name":"BMI Calculator",

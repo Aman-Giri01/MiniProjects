@@ -38,3 +38,43 @@ const countryCurrency = {
     "Hungary": "HUF"
   };
   
+
+  const countryFlags = {
+    "United States": "us",
+    "Eurozone": "eu",
+    "United Kingdom": "gb",
+    "India": "in",
+    "Japan": "jp",
+    "Australia": "au",
+    "Canada": "ca",
+    "Switzerland": "ch",
+    "China": "cn",
+    "Russia": "ru",
+    "Brazil": "br",
+    "South Africa": "za",
+    "Mexico": "mx",
+    "South Korea": "kr",
+    "Singapore": "sg",
+    "New Zealand": "nz",
+    "Sweden": "se",
+    "Norway": "no",
+    "Denmark": "dk",
+    "Thailand": "th",
+    "Turkey": "tr",
+    "United Arab Emirates": "ae",
+    "Saudi Arabia": "sa",
+    "Indonesia": "id",
+    "Malaysia": "my",
+    "Philippines": "ph",
+    "Pakistan": "pk",
+    "Vietnam": "vn",
+    "Hong Kong": "hk",
+    "Argentina": "ar",
+    "Chile": "cl",
+    "Colombia": "co",
+    "Egypt": "eg",
+    "Israel": "il",
+    "Poland": "pl",
+    "Czech Republic": "cz",
+    "Hungary": "hu"
+  };
