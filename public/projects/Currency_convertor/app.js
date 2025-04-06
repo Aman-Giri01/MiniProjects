@@ -33,6 +33,7 @@ updateFlags();
 
 document.querySelector('.transfer').addEventListener('click', () => {
     [currOption[0].value, currOption[1].value] = [currOption[1].value, currOption[0].value];
+    updateFlags();
 });
 
 // Convert currencies
